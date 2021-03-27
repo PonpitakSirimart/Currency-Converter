@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEEAE6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Currency Converter Application"
+        android:layout_marginTop="30dp"
+        android:textColor="#442E2E"
+        android:textSize="19dp"
+        android:textFontWeight="700"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/inputUSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input the amount in USD."
+        android:textSize="18dp"
+        android:textColor="#111e6c"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/showRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textSize="24dp"
+        android:textColor="#111e6c"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn.coverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#442E2E"
+        android:text="Coverter"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/CurrencyConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THB"
+        android:textSize="24dp"
+        android:textColor="#111e6c"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>
